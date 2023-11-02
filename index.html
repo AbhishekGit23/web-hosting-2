@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Using HTML & CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <style>
+    /* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+/* Custom CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: black;
+  background-color: #bea060;
+}
+header {
+  width: 100%;
+  height: 160vh;
+  background-color: black;
+  display: flex;
+}
+.header-left-side {
+  padding: 0 0 0 90px;
+  color: white;
+}
+.header-left-side h1 {
+  color: #bea060;
+  line-height: 1.2em;
+  font-size: 78px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400 !important;
+}
+.header-left-side h2 {
+  color: #bea060;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header-left-side p {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #c1bfbf;
+  line-height: 2;
+}
+button {
+  padding: 20px 10px;
+  border: 2px solid #bea060;
+  background: transparent;
+  width: 47%;
+  color: white;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+.btn {
+  width: 97%;
+  background-color: #bea060;
+}
+.header-left-side h3 {
+  color: #c1bfbf;
+  padding-top: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.header-right-side img {
+  width: 670px;
+  height: 884px;
+  margin-top: 15%;
+}
+.circular--square { 
+  border-top-left-radius: 50% 50%; 
+  border-top-right-radius: 50% 50%; 
+  border-bottom-right-radius: 50% 50%; 
+  border-bottom-left-radius: 50% 50%; 
+}
+    </style>
+    <header>
+      <div class="header-left-side">
+        <!-- <div>
+          
+          <img class="circular--square" src="https://media.licdn.com/dms/image/D5603AQFQMfUuSHtBBA/profile-displayphoto-shrink_400_400/0/1692205969905?e=1704326400&v=beta&t=JEcXxrYEvbHdDp3KqsJl7_U35_wFEZ0BGVP2Zm34I60" alt="img" />
+        
+        <h1>
+          Abhishek <br />
+          Sharma
+        </h1>
+   
+      </div> -->
+      <div style="display: flex; align-items: center;">
+        <h1 style="flex: 1; margin-right: 20px;">
+          Abhishek <br />
+          Sharma
+        </h1>
+        <img class="circular--square" src="https://media.licdn.com/dms/image/D5603AQFQMfUuSHtBBA/profile-displayphoto-shrink_400_400/0/1692205969905?e=1704326400&v=beta&t=JEcXxrYEvbHdDp3KqsJl7_U35_wFEZ0BGVP2Zm34I60" alt="img" style="max-width: 200px; height: auto; margin-right: 60px;">
+      </div>
+        <h2>- Data Scientist</h2>
+        <p>
+          Hey! I am a tech enthusiast who excels at Strategic thinking and 
+          consistently seeks opportunities to enhance skills and knowledge.
+          Dedicated to attaining significant results and excelling in 
+          fast-paced professional surroundings.
+        </p>
+        <h2>- My Skills</h2>
+        <button>Python</button>
+        <button>SQL</button>
+        <br />
+        <br />
+        <button>LINUX</button>
+        <button>Machine Learning</button> <br />
+        <br />
+        <button>Deep Learning</button>
+        <button>Power-BI</button> <br />
+        <br />
+        <button class="btn">Hire now</button>
+        <h3>Copyright © 2023 Abhishek Sharma - Data Scientist</h3>
+      </div>
+      <!-- <div class="header-right-side">
+        <img class="circular--square" src="https://media.licdn.com/dms/image/D5603AQFQMfUuSHtBBA/profile-displayphoto-shrink_400_400/0/1692205969905?e=1704326400&v=beta&t=JEcXxrYEvbHdDp3KqsJl7_U35_wFEZ0BGVP2Zm34I60" alt="img" />
+      </div> -->
+    </header>
+  </body>
+</html>
